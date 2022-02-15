@@ -5,9 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: white;
+}
+
+.card-body{
+  background: #fff;
+  border: solid 1px lightgray;
+}
+
+.card-text{
+  color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.jumbotron{
+  background-color: #6610f2;
+}
+.card img{
+  max-height: 120px;
+}
+
+#buttonPage{
+  background: #6610f2;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+  
+}
+
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#5bc0de,#5bc0de,#5bc0de,#6610f2,#6610f2);
+  border-radius: 7px;
 }
